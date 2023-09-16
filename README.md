@@ -17,3 +17,12 @@ Example 2:
 
 Input: nums = [-1,1,0,-3,3]
 Output: [0,0,9,0,0]
+
+- [ ] Solution in product.js
+
+# Least Common Ancestor
+Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
+
+According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
+
+- [ ] Solution available in lca.js
