@@ -101,3 +101,7 @@ Input: str1 = "LEET", str2 = "CODE"
 Output: ""
 
 - [ ] Solution in gcd.rb
+
+# Quicksort Algorithm
+
+- [ ] Solution in quicksort.rb
