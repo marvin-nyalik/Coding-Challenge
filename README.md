@@ -105,3 +105,9 @@ Output: ""
 # Quicksort Algorithm
 
 - [ ] Solution in quicksort.rb
+
+# Custom Sort
+Challenge:
+You have an array of mixed data types, including integers, floating-point numbers, and strings. Your task is to sort this array using the <=> method, and any elements that are not comparable with others (e.g., strings with integers) should be moved to the end of the array in the order they originally appeared.
+
+- [ ] Solution in custom sort. 
