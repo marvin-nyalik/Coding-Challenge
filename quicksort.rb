@@ -1,28 +1,26 @@
-def partition(array, begin_index, end_index)
-    pivot = array[end_index]
-    j = begin_index
-    for i in begin_index...end_index
-      if array[i] < pivot
-        array[i], array[j] = array[j], array[i]
-        j += 1
-      end
-    end
-    array[end_index], array[j] = array[j], array[end_index]
-    j
+def quicksort(array, low = 0, high = array.size - 1)
+  if low < high
+    pivot_idx = partition(array, low, high)
+    quicksort(array, low, pivot_idx - 1)
+    quicksort(array, pivot_idx + 1, high)
   end
-  def advanced_quicksort(array, begin_index = 0, end_index = array.length - 1)
-    if begin_index < end_index
-      pivot = partition(array, begin_index, end_index)
-      puts "#{array}"
-      advanced_quicksort(array, begin_index, pivot - 1)
-      advanced_quicksort(array, pivot + 1, end_index)
+  array
+end
+
+
+def partition(array, lo, hi)
+  pivot = array[hi]
+  i = lo - 1
+
+  (lo...hi).each do |j|
+    if array[j] < pivot
+      i += 1
+      array[i], array[j] = array[j], array[i]
     end
   end
-  advanced_quicksort([1, 3, 9, 8, 2, 7, 5])
-  # => 1 3 2 5 9 7 8
-  #    1 2 3 5 9 7 8
-  #    1 2 3 5 7 8 9
-  
-  
-  
-  
+
+  array[hi], array[i + 1] = array[i + 1], array[hi]
+  i + 1
+end
+
+p quicksort([3,2,12,6,45,15])
