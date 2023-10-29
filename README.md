@@ -85,7 +85,6 @@ For two strings s and t, we say "t divides s" if and only if s = t + ... + t (i.
 
 Given two strings str1 and str2, return the largest string x such that x divides both str1 and str2.
 
- 
 
 Example 1:
 
@@ -103,6 +102,7 @@ Output: ""
 - [ ] Solution in gcd.rb
 
 # Quicksort Algorithm
+Challenge: Implement the popular quicksort sorting algorithm
 
 - [ ] Solution in quicksort.rb
 
