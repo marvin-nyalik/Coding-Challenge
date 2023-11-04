@@ -116,3 +116,9 @@ You have an array of mixed data types, including integers, floating-point number
 An implementation of the merge sort algorithm
 
 - [ ] Find solution in merge_sort.rb
+
+# Bubble sort Algorithm
+
+Bubble sort is a simple sorting algorithm that repeatedly steps through a given list of items, comparing each pair of adjacent items and swapping them if they’re in the wrong order. The algorithm continues until it makes a pass through the entire list without swapping any items.
+
+Bubble sort is also sometimes referred to as “sinking sort”.
