@@ -122,3 +122,12 @@ An implementation of the merge sort algorithm
 Bubble sort is a simple sorting algorithm that repeatedly steps through a given list of items, comparing each pair of adjacent items and swapping them if they’re in the wrong order. The algorithm continues until it makes a pass through the entire list without swapping any items.
 
 Bubble sort is also sometimes referred to as “sinking sort”.
+
+- [ ] Solution => bubble_sort.rb
+
+# Selection Sort
+
+Imagine you have a bunch of toys all mixed up on the floor, and you want to put them in order from smallest to biggest. Selection sort is like looking at all the toys and picking the smallest one first. You then put that smallest toy in the front. After that, you look at the rest of the toys and find the next smallest one. You keep doing this until all the toys are in order from the smallest to the biggest. It's like picking the smallest toy each time and putting it in its right place.
+
+- [ ] Solution in selection_sort.rb
+
