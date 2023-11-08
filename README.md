@@ -145,6 +145,9 @@ Imagine you have a bunch of numbered cards, and you want to arrange them in orde
 
 Heap Sort is like having a way to always pick the biggest thing from a mixed-up pile and slowly organizing everything until it's all in order.
 
+- [ ] Solution in heap_sort.rb
+
+
 # Radix Sort
 
 Okay, imagine you have a lot of boxes with numbers written on them. Radix sort is like sorting these boxes by their numbers in a special way.
@@ -154,3 +157,5 @@ First, instead of looking at the numbers all at once, we start by looking at the
 Once we've done this, the boxes are a bit sorted based on their last digit. Then, we start again, but this time we look at the second-to-last digit. We rearrange the boxes within each group according to this digit. We keep doing this until we've looked at all the digits in the numbers.
 
 By the end, the boxes are all lined up in order from smallest to biggest based on all their digits. It's like organizing toys by their type, then color, then size, but with numbers and their digits. That's how radix sort works!
+
+- [ ] Solution in radix_sort.rb
