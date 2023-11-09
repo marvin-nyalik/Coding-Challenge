@@ -159,3 +159,9 @@ Once we've done this, the boxes are a bit sorted based on their last digit. Then
 By the end, the boxes are all lined up in order from smallest to biggest based on all their digits. It's like organizing toys by their type, then color, then size, but with numbers and their digits. That's how radix sort works!
 
 - [ ] Solution in radix_sort.rb
+
+# Binary Search
+Binary search is a highly efficient algorithm used to locate a specific item in a sorted array. It works by repeatedly dividing the search interval in half. The algorithm compares the target value to the middle element of the array and eliminates the half in which the target cannot lie. This process continues until the target is found or the search interval is empty.
+
+- [ ] Implementation in binary_search.rb
+
