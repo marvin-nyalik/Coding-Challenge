@@ -12,7 +12,7 @@ word1:  a   b   c
 word2:    p   q   r
 merged: a p b q c r
 
-- [ ] Solution in merge.rb
+- [ ] Solution in merge_alternately.rb
 
 # Product of Array Except Self
 Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
