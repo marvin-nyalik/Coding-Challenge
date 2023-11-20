@@ -185,3 +185,15 @@ merging them into one sorted list:
 1->1->2->3->4->4->5->6
 
 - [ ] Solution in merge_sorted_lists.rb
+
+# Two Sum - Two Pointer Technique
+
+## Two Pointer Technique
+The Two-Pointer Technique is a algorithmic approach commonly employed in computer science and software development to optimize the traversal or manipulation of data structures. It involves the use of two pointers or indices that traverse the data structure from different ends or positions. The pointers are manipulated based on specific conditions, allowing for a more efficient and often linear time complexity solution to problems that involve searching, matching, or manipulating elements within the data structure.
+
+This technique is frequently utilized in scenarios where a brute-force approach would result in higher time complexity. The Two-Pointer Technique is particularly effective in problems related to array manipulation, linked lists, or strings. It is known for its ability to reduce time and space complexity by avoiding redundant computations and efficiently narrowing down the search space.
+
+The general process involves initializing two pointers, often at different ends or positions of the data structure. The pointers are then iteratively adjusted based on certain conditions, such as element comparisons or specific criteria relevant to the problem at hand. The process continues until the pointers meet, indicating the completion of the algorithm. The careful manipulation of pointers allows for a streamlined and optimized traversal, making the Two-Pointer Technique a valuable tool in algorithm design and optimization.
+
+## Two Sum Problem
+Given an array of integers nums and an integer target, return the indices of the two numbers such that they add up to the target.
