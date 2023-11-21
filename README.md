@@ -197,3 +197,6 @@ The general process involves initializing two pointers, often at different ends 
 
 ## Two Sum Problem
 Given an array of integers nums and an integer target, return the indices of the two numbers such that they add up to the target.
+
+## Three Sum Problem
+The Three Sum problem involves finding all unique triplets in an array that add up to a specific target sum.
