@@ -223,3 +223,6 @@ Find a contiguous subarray whose length is equal to k that has the maximum avera
 
 - [ ] Solution in max_avg_subarray.rb
 
+## Problem: Max Vowels in a Substring
+
+Given a string s and an integer k, return the maximum number of vowel letters in any substring of s with length k.
