@@ -215,3 +215,11 @@ Then, you slide the window to the right by one toy and check again. If the sum i
 Given an array of positive integers nums and a positive integer target, return the minimal length of a subarray whose sum is greater than or equal to target. If there is no such subarray, return 0 instead.
 
 - [ ] Solution in min_subarray.rb
+
+## Problem: Maximum Average Subarray I
+You are given an integer array nums consisting of n elements, and an integer k.
+
+Find a contiguous subarray whose length is equal to k that has the maximum average value and return this value. Any answer with a calculation error less than 10-5 will be accepted.
+
+- [ ] Solution in max_avg_subarray.rb
+
