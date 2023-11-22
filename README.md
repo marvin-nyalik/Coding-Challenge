@@ -200,3 +200,18 @@ Given an array of integers nums and an integer target, return the indices of the
 
 ## Three Sum Problem
 The Three Sum problem involves finding all unique triplets in an array that add up to a specific target sum.
+
+# Sliding Window Technique
+Imagine you have a bunch of toys (elements in an array), and you want to find the smallest group of toys that satisfies a certain condition (e.g., the sum of the numbers in the group is greater than or equal to a target).
+
+The sliding window technique is like having a window that can slide along the toys. At first, the window covers just a few toys, and then it slides to the right, adding one more toy at a time. If, at any point, the sum of the toys inside the window meets your condition, you stop and remember the size of the window (the number of toys). Then, you slide the window to the right to see if you can find a smaller group of toys that still meets the condition.
+
+Let's say you're looking for the smallest group of toys with a sum greater than or equal to 10. You start with the window covering the first few toys and move it to the right until the sum is 10 or more. Once you find such a group, you remember the size of the window.
+
+Then, you slide the window to the right by one toy and check again. If the sum is still 10 or more, you check if this group is smaller than the previous one. If it is, you update your memory with the new, smaller size.
+
+## Problem: Minimum Size Subarray Sum
+
+Given an array of positive integers nums and a positive integer target, return the minimal length of a subarray whose sum is greater than or equal to target. If there is no such subarray, return 0 instead.
+
+- [ ] Solution in min_subarray.rb
