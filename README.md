@@ -227,6 +227,10 @@ Find a contiguous subarray whose length is equal to k that has the maximum avera
 
 Given a string s and an integer k, return the maximum number of vowel letters in any substring of s with length k.
 
+- [ ] Solution in max_vowels.rb
+
 ## Problem: Maximum Number of 1's
 
 Given a binary array nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's.
+
+- [ ] Solution in max_ones.rb
