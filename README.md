@@ -234,3 +234,11 @@ Given a string s and an integer k, return the maximum number of vowel letters in
 Given a binary array nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's.
 
 - [ ] Solution in max_ones.rb
+
+## Problem: Longest Subarray of 1's After Deleting One Element
+Given a binary array nums, you should delete one element from it.
+
+Return the size of the longest non-empty subarray containing only 1's in the resulting array. Return 0 if there is no such subarray.
+
+- [ ] Solution in longest_of_ones.rb
+
