@@ -186,7 +186,7 @@ merging them into one sorted list:
 
 - [ ] Solution in merge_sorted_lists.rb
 
-# Two Sum - Two Pointer Technique
+# Two Pointer Technique
 
 ## Two Pointer Technique
 The Two-Pointer Technique is a algorithmic approach commonly employed in computer science and software development to optimize the traversal or manipulation of data structures. It involves the use of two pointers or indices that traverse the data structure from different ends or positions. The pointers are manipulated based on specific conditions, allowing for a more efficient and often linear time complexity solution to problems that involve searching, matching, or manipulating elements within the data structure.
