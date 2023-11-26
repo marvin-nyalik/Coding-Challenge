@@ -201,6 +201,13 @@ Given an array of integers nums and an integer target, return the indices of the
 ## Three Sum Problem
 The Three Sum problem involves finding all unique triplets in an array that add up to a specific target sum.
 
+## String Is Subsequence of
+Given two strings s and t, return true if s is a subsequence of t, or false otherwise.
+
+A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace" is a subsequence of "abcde" while "aec" is not).
+
+- [ ] Solution in is_sub.rb
+
 # Sliding Window Technique
 Imagine you have a bunch of toys (elements in an array), and you want to find the smallest group of toys that satisfies a certain condition (e.g., the sum of the numbers in the group is greater than or equal to a target).
 
