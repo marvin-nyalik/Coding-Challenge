@@ -208,6 +208,13 @@ A subsequence of a string is a new string that is formed from the original strin
 
 - [ ] Solution in is_sub.rb
 
+## Move Zeros
+Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+Note that you must do this in-place without making a copy of the array.
+
+- [ ] Solution in move_zeros.rb
+
 # Sliding Window Technique
 Imagine you have a bunch of toys (elements in an array), and you want to find the smallest group of toys that satisfies a certain condition (e.g., the sum of the numbers in the group is greater than or equal to a target).
 
