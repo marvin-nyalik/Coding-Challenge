@@ -215,6 +215,26 @@ Note that you must do this in-place without making a copy of the array.
 
 - [ ] Solution in move_zeros.rb
 
+## Max Number of K-Sum Pairs
+You are given an integer array nums and an integer k.
+
+In one operation, you can pick two numbers from the array whose sum equals k and remove them from the array.
+
+Return the maximum number of operations you can perform on the array.
+
+- [ ] Solution in max_k_pairs.rb
+
+## Container with the most water
+You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
+
+Find two lines that together with the x-axis form a container, such that the container contains the most water.
+
+Return the maximum amount of water a container can store.
+
+Notice that you may not slant the container.
+
+- [ ] Solution in most_water.rb
+
 # Sliding Window Technique
 Imagine you have a bunch of toys (elements in an array), and you want to find the smallest group of toys that satisfies a certain condition (e.g., the sum of the numbers in the group is greater than or equal to a target).
 
