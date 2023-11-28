@@ -321,3 +321,8 @@ In a linked list, you have nodes. Each node is like a toy, and it has two parts:
 So, let's say you have three toys named A, B, and C. You'd make three nodes: one for A, one for B, and one for C. The node for A says, "Hey, the next toy is B." The node for B says, "Look for the next toy at C." And the node for C says, "There's no more toys after me."
 
 - Basics in linked_list.rb
+
+## Problem: Reverse a Linked List
+Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+- Solution in reverse_linked_list.rb
