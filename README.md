@@ -312,3 +312,12 @@ There is a biker going on a road trip. The road trip consists of n + 1 points at
 You are given an integer array gain of length n where gain[i] is the net gain in altitude between points i​​​​​​ and i + 1 for all (0 <= i < n). Return the highest altitude of a point.
 
 - [ ] Solution in highest_alt.rb
+
+# LINKED LIST
+Imagine you have a bunch of toys, and you want to line them up in a row. Each toy has a special tag that tells you where the next toy is. That's kind of like a linked list!
+
+In a linked list, you have nodes. Each node is like a toy, and it has two parts: one part holds some information (like a toy's name), and the other part tells you where the next node is.
+
+So, let's say you have three toys named A, B, and C. You'd make three nodes: one for A, one for B, and one for C. The node for A says, "Hey, the next toy is B." The node for B says, "Look for the next toy at C." And the node for C says, "There's no more toys after me."
+
+- Basics in linked_list.rb
