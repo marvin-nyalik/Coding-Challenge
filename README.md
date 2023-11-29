@@ -360,3 +360,14 @@ The twin sum is defined as the sum of a node and its twin.
 Given the head of a linked list with even length, return the maximum twin sum of the linked list.
 
 - [ ] Solution in link_list_max_twin_sum.rb
+
+## Problem: 876. Middle of the Linked List
+Easy
+Likes 10.7K
+324
+Companies
+Given the head of a singly linked list, return the middle node of the linked list.
+
+If there are two middle nodes, return the second middle node.
+
+- [ ] Solution in middle_linked_list.rb
