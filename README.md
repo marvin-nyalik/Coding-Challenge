@@ -371,3 +371,16 @@ Given the head of a singly linked list, return the middle node of the linked lis
 If there are two middle nodes, return the second middle node.
 
 - [ ] Solution in middle_linked_list.rb
+
+## Problem: 234. Palindrome Linked List
+Easy
+15.5K
+835
+Companies
+Given the head of a singly linked list, return true if it is a 
+palindrome
+ or false otherwise.
+
+- [ ] Solution in palindrome_linked_list.rb
+
+
