@@ -383,4 +383,39 @@ palindrome
 
 - [ ] Solution in palindrome_linked_list.rb
 
+# Binary Tree :DFS
+
+## Problem: 104. Maximum Depth of Binary Tree
+Easy
+12.1K
+203
+Companies
+Given the root of a binary tree, return its maximum depth.
+
+A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+Twin Case
+Given a binary tree, find its minimum depth.
+
+The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.
+
+Note: A leaf is a node with no children.
+
+- [ ] max_tree_depth.rb
+
+## Problem: 872. Leaf-Similar Trees
+Two binary trees are considered leaf-similar if their leaf value sequence is the same.
+
+Return true if and only if the two given trees with head nodes root1 and root2 are leaf-similar.
+
+- [ ] Solution in similar_leaf.rb
+
+## Problem: 1448. Count Good Nodes in Binary Tree
+Medium
+5.5K
+143
+Companies
+Given a binary tree root, a node X in the tree is named good if in the path from root to X there are no nodes with a value greater than X.
+
+- [ ] Solution in good_nodes.rb
 
