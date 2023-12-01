@@ -419,3 +419,23 @@ Given a binary tree root, a node X in the tree is named good if in the path from
 
 - [ ] Solution in good_nodes.rb
 
+## Problem: 112. Path Sum
+Easy
+9.2K
+1K
+Companies
+Given the root of a binary tree and an integer targetSum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum.
+
+A leaf is a node with no children.
+- [ ] Solution in path_sum.rb
+
+## Problem: 113. Path Sum II
+Medium
+7.6K
+147
+Companies
+Given the root of a binary tree and an integer targetSum, return all root-to-leaf paths where the sum of the node values in the path equals targetSum. Each path should be returned as a list of the node values, not node references.
+
+A root-to-leaf path is a path starting from the root and ending at any leaf node. A leaf is a node with no children.
+
+- [ ] Solution in path_sum_2.rb
