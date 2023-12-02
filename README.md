@@ -439,3 +439,18 @@ Given the root of a binary tree and an integer targetSum, return all root-to-lea
 A root-to-leaf path is a path starting from the root and ending at any leaf node. A leaf is a node with no children.
 
 - [ ] Solution in path_sum_2.rb
+
+## Problem: 1372. Longest ZigZag Path in a Binary Tree
+65
+Companies
+You are given the root of a binary tree.
+
+A ZigZag path for a binary tree is defined as follow:
+
+Choose any node in the binary tree and a direction (right or left).
+If the current direction is right, move to the right child of the current node; otherwise, move to the left child.
+Change the direction from right to left or from left to right.
+Repeat the second and third steps until you can't move in the tree.
+Zigzag length is defined as the number of nodes visited - 1. (A single node has a length of 0).
+
+Return the longest ZigZag path contained in that tree.
