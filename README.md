@@ -465,3 +465,56 @@ Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in
 According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
 
 - [ ] Solution in lca_binary_tree.rb
+
+# Problem: 998. Maximum Binary Tree II
+Medium
+507
+770
+Companies
+A maximum tree is a tree where every node has a value greater than any other value in its subtree.
+
+You are given the root of a maximum binary tree and an integer val.
+
+Just as in the previous problem, the given tree was constructed from a list a (root = Construct(a)) recursively with the following Construct(a) routine:
+
+If a is empty, return null.
+Otherwise, let a[i] be the largest element of a. Create a root node with the value a[i].
+The left child of root will be Construct([a[0], a[1], ..., a[i - 1]]).
+The right child of root will be Construct([a[i + 1], a[i + 2], ..., a[a.length - 1]]).
+Return root.
+Note that we were not given a directly, only a root node root = Construct(a).
+
+Suppose b is a copy of a with the value val appended to it. It is guaranteed that b has unique values.
+
+Return Construct(b).
+
+- [ ] Solution in max_binary_tree_ii_insert.rb
+
+# Problem: 654. Maximum Binary Tree
+Medium
+5.1K
+329
+Companies
+You are given an integer array nums with no duplicates. A maximum binary tree can be built recursively from nums using the following algorithm:
+
+Create a root node whose value is the maximum value in nums.
+Recursively build the left subtree on the subarray prefix to the left of the maximum value.
+Recursively build the right subtree on the subarray suffix to the right of the maximum value.
+Return the maximum binary tree built from nums.
+
+- [ ] Solution in build_max_bin_tree.rb
+
+# Problem: 450. Delete Node in a BST
+Medium
+8.6K
+233
+Companies
+Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.
+
+Basically, the deletion can be divided into two stages:
+
+Search for a node to remove.
+If the node is found, delete the node.
+
+- [ ] Solution in delete_tree_node.rb
+
