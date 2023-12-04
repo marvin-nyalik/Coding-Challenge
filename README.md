@@ -518,3 +518,36 @@ If the node is found, delete the node.
 
 - [ ] Solution in delete_tree_node.rb
 
+## Binary Tree BFS
+# Problem: 1161. Maximum Level Sum of a Binary Tree
+Medium
+3.4K
+97
+Companies
+Given the root of a binary tree, the level of its root is 1, the level of its children is 2, and so on.
+
+Return the smallest level x such that the sum of all the values of nodes at level x is maximal.
+
+- [ ] Solution in max_level_sum.rb
+
+# Problem: 199. Binary Tree Right Side View
+Medium
+11.3K
+786
+Companies
+Given the root of a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.
+
+- [ ] Solution in binary_tree_right_view.rb
+
+# Problem: 841. Keys and Rooms
+Medium
+5.8K
+256
+Companies
+There are n rooms labeled from 0 to n - 1 and all the rooms are locked except for room 0. Your goal is to visit all the rooms. However, you cannot enter a locked room without having its key.
+
+When you visit a room, you may find a set of distinct keys in it. Each key has a number on it, denoting which room it unlocks, and you can take all of them with you to unlock the other rooms.
+
+Given an array rooms where rooms[i] is the set of keys that you can obtain if you visited room i, return true if you can visit all the rooms, or false otherwise.
+
+- [ ] Solution in keys_and_rooms.rb
