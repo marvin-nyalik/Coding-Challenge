@@ -551,3 +551,65 @@ When you visit a room, you may find a set of distinct keys in it. Each key has a
 Given an array rooms where rooms[i] is the set of keys that you can obtain if you visited room i, return true if you can visit all the rooms, or false otherwise.
 
 - [ ] Solution in keys_and_rooms.rb
+
+# ARRAYS & STRINGS
+## Problem: 3. Longest Substring Without Repeating Characters
+Medium
+38K
+1.7K
+Companies
+Given a string s, find the length of the longest 
+substring
+ without repeating characters.
+
+ 
+
+Example 1:
+
+Input: s = "abcabcbb"
+Output: 3
+Explanation: The answer is "abc", with the length of 3.
+Example 2:
+
+Input: s = "bbbbb"
+Output: 1
+Explanation: The answer is "b", with the length of 1.
+Example 3:
+
+Input: s = "pwwkew"
+Output: 3
+Explanation: The answer is "wke", with the length of 3.
+Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
+
+- [ ] Solution in longest_substring.rb
+
+# Problem: 395. Longest Substring with At Least K Repeating Characters
+Medium
+5.9K
+474
+Companies
+Given a string s and an integer k, return the length of the longest substring of s such that the frequency of each character in this substring is greater than or equal to k.
+
+if no such substring exists, return 0.
+
+ 
+
+Example 1:
+
+Input: s = "aaabb", k = 3
+Output: 3
+Explanation: The longest substring is "aaa", as 'a' is repeated 3 times.
+Example 2:
+
+Input: s = "ababbc", k = 2
+Output: 5
+Explanation: The longest substring is "ababb", as 'a' is repeated 2 times and 'b' is repeated 3 times.
+ 
+
+Constraints:
+
+1 <= s.length <= 104
+s consists of only lowercase English letters.
+1 <= k <= 105
+
+- [ ] Solution in longest_substring_with_k.rb
