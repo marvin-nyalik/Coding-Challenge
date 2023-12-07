@@ -198,6 +198,18 @@ The general process involves initializing two pointers, often at different ends 
 ## Two Sum Problem
 Given an array of integers nums and an integer target, return the indices of the two numbers such that they add up to the target.
 
+## Reverse Vowels
+345. Reverse Vowels of a String
+Easy
+4.2K
+2.7K
+Companies
+Given a string s, reverse only all the vowels in the string and return it.
+
+The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both lower and upper cases, more than once.
+
+- [ ] Solution in reverse_vowels.rb
+
 ## Three Sum Problem
 The Three Sum problem involves finding all unique triplets in an array that add up to a specific target sum.
 
