@@ -595,7 +595,7 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 
 - [ ] Solution in longest_substring.rb
 
-# Problem: 395. Longest Substring with At Least K Repeating Characters
+## Problem: 395. Longest Substring with At Least K Repeating Characters
 Medium
 5.9K
 474
@@ -626,7 +626,7 @@ s consists of only lowercase English letters.
 
 - [ ] Solution in longest_substring_with_k.rb
 
-# Problem: 7. Reverse Integer
+## Problem: 7. Reverse Integer
 Medium
 12.2K
 13.2K
@@ -637,7 +637,7 @@ Assume the environment does not allow you to store 64-bit integers (signed or un
 
 - [ ] Solution in reverse_digit.rb
 
-# Problem: 443. String Compression
+## Problem: 443. String Compression
 Medium
 4.5K
 7.2K
@@ -655,3 +655,17 @@ After you are done modifying the input array, return the new length of the array
 You must write an algorithm that uses only constant extra space.
 
 - [ ] Solution in compressed_string.rb
+
+## Problem: 26. Remove Duplicates from Sorted Array
+Easy
+13.2K
+17.5K
+Companies
+Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
+
+Consider the number of unique elements of nums to be k, to get accepted, you need to do the following things:
+
+Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. The remaining elements of nums are not important as well as the size of nums.
+Return k.
+
+- [ ] Solution in remove_duplicates.rb
