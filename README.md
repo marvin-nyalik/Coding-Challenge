@@ -750,3 +750,40 @@ Total profit is 4 + 3 = 7.
 
 - [ ] Solution in best_profitII.rb
 
+# GRAPHS
+
+## Problem: 200. Number of Islands
+Medium
+21.6K
+471
+Companies
+Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
+
+An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+
+ 
+
+Example 1:
+
+Input: grid = [
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]
+Output: 1
+
+- [ ] Solution in island_count.rb
+
+## Problem: 695. Max Area of Island
+Medium
+9.7K
+198
+Companies
+You are given an m x n binary matrix grid. An island is a group of 1's (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.
+
+The area of an island is the number of cells with a value 1 in the island.
+
+Return the maximum area of an island in grid. If there is no island, return 0.
+
+- [ ] Solution in max_area.rb
