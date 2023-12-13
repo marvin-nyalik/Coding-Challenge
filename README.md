@@ -750,6 +750,54 @@ Total profit is 4 + 3 = 7.
 
 - [ ] Solution in best_profitII.rb
 
+## Problem: 1657. Determine if Two Strings Are Close
+Medium
+2.8K
+164
+Companies
+Two strings are considered close if you can attain one from the other using the following operations:
+
+Operation 1: Swap any two existing characters.
+For example, abcde -> aecdb
+Operation 2: Transform every occurrence of one existing character into another existing character, and do the same with the other character.
+For example, aacabb -> bbcbaa (all a's turn into b's, and all b's turn into a's)
+You can use the operations on either string as many times as necessary.
+
+Given two strings, word1 and word2, return true if word1 and word2 are close, and false otherwise.
+
+ 
+
+Example 1:
+
+Input: word1 = "abc", word2 = "bca"
+Output: true
+Explanation: You can attain word2 from word1 in 2 operations.
+Apply Operation 1: "abc" -> "acb"
+Apply Operation 1: "acb" -> "bca"
+
+- [ ] Solution in close_strings.rb
+
+## Problem: 2352. Equal Row and Column Pairs
+Medium
+2K
+120
+Companies
+Given a 0-indexed n x n integer matrix grid, return the number of pairs (ri, cj) such that row ri and column cj are equal.
+
+A row and column pair is considered equal if they contain the same elements in the same order (i.e., an equal array).
+
+ 
+
+Example 1:
+
+
+Input: grid = [[3,2,1],[1,7,6],[2,7,7]]
+Output: 1
+Explanation: There is 1 equal row and column pair:
+- (Row 2, Column 1): [2,7,7]
+
+- [ ] Solution in equal_row_col.rb
+
 # GRAPHS
 
 ## Problem: 200. Number of Islands
