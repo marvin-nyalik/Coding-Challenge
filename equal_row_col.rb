@@ -16,3 +16,16 @@ def equal_pairs(grid)
     count
 end
   
+# bruteforce soln
+# @param {Integer[][]} grid
+# @return {Integer}
+
+def equal_pairs(grid)
+    count = 0
+    (0...grid.size).each do |i|
+        (0...grid[0].size).each do |j|
+          count += 1 if grid[i] == (0...grid[0].size).map { |k| grid[k][j] }
+        end
+    end
+    count
+end
