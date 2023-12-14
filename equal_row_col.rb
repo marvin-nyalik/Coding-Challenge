@@ -1,0 +1,18 @@
+# @param {Integer[][]} grid
+# @return {Integer}
+def equal_pairs(grid)
+    row_hash = Hash.new { |hash, key| hash[key] = [] }
+    count = 0
+  
+    grid.each_with_index do |row, i|
+      row_hash[row] << i
+    end
+  
+    grid[0].size.times do |j|
+      col = (0...grid.size).map { |k| grid[k][j] }
+      count += row_hash[col].size
+    end
+  
+    count
+end
+  
