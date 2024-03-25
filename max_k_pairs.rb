@@ -1,20 +1,18 @@
 def max_operations(nums, k)
-    nums.sort!
-    left, right, count = 0, nums.size - 1, 0
+  operations = 0
+  nums.sort!
+  left = 0
+  right = nums.size - 1
 
-    while left < right
-      cur_sum = nums[left] + nums[right]
-      if cur_sum == k
-        count += 1 
-        left += 1
-        right -= 1
+  while left < right
+      sum = nums[left] + nums[right]
+      right -= 1 if sum > k
+      left += 1 if sum < k
+      if sum == k
+          left += 1
+          right -= 1
+          operations += 1
       end
-      
-      if cur_sum > k
-        right -= 1
-      elsif cur_sum < k
-        left += 1
-      end
-    end
-    count
+  end
+  operations
 end
