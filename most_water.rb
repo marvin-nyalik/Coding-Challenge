@@ -1,18 +1,21 @@
+# @param {Integer[]} height
+# @return {Integer}
 def max_area(height)
-    left, right = 0, height.size - 1
-    max_vol = 0
+  max_volume = 0
+  left = 0
+  right = height.size - 1
 
-    while left < right
-      cur_height = [height[left], height[right]].min
-      cur_length = right - left
+  while left < right
+      length = right - left
+      c_height = [height[left], height[right]].min
+      volume = length * c_height
+      max_volume = [volume, max_volume].max
 
-      cur_vol = cur_height * cur_length
-      max_vol = [max_vol, cur_vol].max
       if height[left] < height[right]
-        left += 1
+          left += 1
       else
-        right -= 1
+          right -= 1
       end
-    end
-    max_vol
+  end
+  max_volume
 end
