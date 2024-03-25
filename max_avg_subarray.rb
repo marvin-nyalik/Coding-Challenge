@@ -1,22 +1,18 @@
+# @param {Integer[]} nums
+# @param {Integer} k
+# @return {Float}
 def find_max_average(nums, k)
   left = 0
   right = k - 1
-  sum = 0
-  max_avg = -Float::INFINITY
-  
-  (left..right).each do |i|
-    sum += nums[i]
+  sum = nums.slice(left, k).sum
+  avg = sum.to_f / k
+  while right < nums.size - 1 && left <= right
+      sum -= nums[left]
+      sum += nums[right + 1]
+      new_avg = sum.to_f / k
+      avg = [new_avg, avg].max
+      left += 1
+      right += 1
   end
-  
-  while right < nums.size
-    avg = sum / k.to_f
-    max_avg = [max_avg, avg].max
-    sum -= nums[left]
-    left += 1
-    right += 1
-  
-    sum += nums[right] if right < nums.size
-  end
- 
-  return max_avg
+  avg 
 end
