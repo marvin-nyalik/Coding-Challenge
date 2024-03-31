@@ -452,6 +452,18 @@ A root-to-leaf path is a path starting from the root and ending at any leaf node
 
 - [ ] Solution in path_sum_2.rb
 
+### 437. Path Sum III
+Attempted
+Medium
+Topics
+Companies
+Given the root of a binary tree and an integer targetSum, return the number of paths where the sum of the values along the path equals targetSum.
+
+The path does not need to start or end at the root or a leaf, but it must go downwards (i.e., traveling only from parent nodes to child nodes).
+
+- Soln in path_sum3.rb
+
+
 ## Problem: 1372. Longest ZigZag Path in a Binary Tree
 65
 Companies
