@@ -66,3 +66,18 @@ def leaf_similar(root1, root2)
     end
   end
   
+#The recursion made simple
+def leaf_similar(root1, root2)
+  
+  def leaf_values(root)
+      return [] if root.nil?
+
+      return [root.val] if root.left.nil? && root.right.nil?
+
+      left_leaves = leaf_values(root.left)
+      right_leaves = leaf_values(root.right)
+      left_leaves.concat(right_leaves)
+  end
+
+  leaf_values(root1) == leaf_values(root2)
+end
