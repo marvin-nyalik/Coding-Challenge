@@ -431,6 +431,47 @@ Given a binary tree root, a node X in the tree is named good if in the path from
 
 - [ ] Solution in good_nodes.rb
 
+## 107. Binary Tree Level Order Traversal II
+Solved
+Medium
+Topics
+Companies
+Given the root of a binary tree, return the bottom-up level order traversal of its nodes' values. (i.e., from left to right, level by level from leaf to root).
+
+## Problem: 98. Validate Binary Search Tree
+Solved
+Medium
+Topics
+Companies
+Given the root of a binary tree, determine if it is a valid binary search tree (BST).
+
+A valid BST is defined as follows:
+
+The left 
+subtree
+ of a node contains only nodes with keys less than the node's key.
+The right subtree of a node contains only nodes with keys greater than the node's key.
+Both the left and right subtrees must also be binary search trees.
+
+- Soln in validate_bst.rb
+
+## Problem: 501. Find Mode in Binary Search Tree
+Solved
+Easy
+Topics
+Companies
+Given the root of a binary search tree (BST) with duplicates, return all the mode(s) (i.e., the most frequently occurred element) in it.
+
+If the tree has more than one mode, return them in any order.
+
+Assume a BST is defined as follows:
+
+The left subtree of a node contains only nodes with keys less than or equal to the node's key.
+The right subtree of a node contains only nodes with keys greater than or equal to the node's key.
+Both the left and right subtrees must also be binary search trees.
+
+- Soln in tree_modes.rb
+
 ## Problem: 112. Path Sum
 Easy
 9.2K
