@@ -35,3 +35,12 @@ def lowest_common_ancestor(root, p, q)
     
     left || right
 end
+
+def lowest_common_ancestor(root, p, q)
+    return nil unless root
+    return root if [p, q].include?(root)
+    left = lowest_common_ancestor(root.left, p, q)
+    right = lowest_common_ancestor(root.right, p,q)
+    return root if left && right
+    left || right
+end
