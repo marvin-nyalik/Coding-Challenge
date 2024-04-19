@@ -10,7 +10,6 @@ end
 
 def longest_zig_zag(root)
     @path_length = 0
-
     def dfs(node, go_left, steps)
         if node
             @path_length = [@path_length, steps].max
