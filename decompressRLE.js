@@ -15,3 +15,19 @@ var decompressRLElist = function (nums) {
 
   return result.flat();
 };
+
+// simplified
+
+/**
+ * @param {number[]} nums
+ * @return {number[]}
+ */
+var decompressRLElist = function (nums) {
+  let result = [];
+  for (let i = 1; i < nums.length; ) {
+    let num = nums[i];
+    result.push(...Array(nums[i - 1]).fill(num));
+    i += 2;
+  }
+  return result;
+};
